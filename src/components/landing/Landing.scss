@@ -1,0 +1,73 @@
+/*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+//@use '@awsui/design-tokens/polaris.scss' as awsui;
+@import "~@awsui/design-tokens/index";
+@import "../../common/styles/base";
+
+.custom-home__header {
+  background-color: $color-background-home-header;
+}
+
+.custom-home__header-title {
+  color: $color-text-home-header-default;
+}
+
+.custom-home__category,
+.custom-home__header-sub-title {
+  color: $color-text-home-header-secondary;
+}
+
+@media (min-width: 992px) {
+  .custom-home__sidebar {
+    margin-top: -64px;
+  }
+}
+
+.custom-home__header-title > * {
+  max-width: 700px;
+}
+
+.custom-home-image__placeholder:before {
+  content: "X";
+  display: block;
+  background-color: $color-background-layout-main;
+  color: $color-background-container-content;
+  text-align: center;
+  font-size: 400px;
+  line-height: 400px;
+}
+
+ul.custom-list-separator {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-top: 1px solid $color-border-divider-default;
+    padding: 0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &:first-child {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.resize-fit-in-container {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.center-header div div div {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn
+    build:
+      commands:
+        - echo "REACT_APP_FHIR_SERVER_URL=$REACT_APP_FHIR_SERVER_URL" > .env.production
+        - echo "REACT_APP_AUTH_URL=$REACT_APP_AUTH_URL" >> .env.production
+        - echo "REACT_APP_CLIENT_ID=$REACT_APP_CLIENT_ID" >> .env.production
+        - echo "REACT_APP_API_KEY=$REACT_APP_API_KEY" >> .env.production
+        - yarn build
+  artifacts:
+    baseDirectory: build
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*

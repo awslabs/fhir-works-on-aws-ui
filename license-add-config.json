@@ -1,0 +1,5 @@
+{
+  "license": "./apache-license-header.txt",
+  "ignore":["**/*.txt", "**/*.md", "**/*.json", "**/*.log",".env", ".env.local", ".env.development", ".env.test","env.production", ".eslintcache", ".idea/*", "yarn.lock"],
+  "ignoreFile": ".gitignore"
+}

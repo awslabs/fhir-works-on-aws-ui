@@ -30,7 +30,7 @@ export const navItems: SideNavigationProps.Section[] = [
       {
         type: "link",
         text: "UI Github",
-        href: "https://github.com/awslabs/fhir-works-on-aws-deployment",
+        href: "https://github.com/awslabs/fhir-works-on-aws-ui",
       },
       {
         type: "link",

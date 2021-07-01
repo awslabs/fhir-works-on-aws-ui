@@ -3,6 +3,11 @@
 This code base allows you to spin up a UI that makes it easy and simple to interface with the [FHIR Works on AWS Server](https://github.com/awslabs/fhir-works-on-aws-deployment).
 
 ![Home Page Screenshot](./docs/home-page-screenshot.png)
+**Home Page**
+
+
+![Search Results Screenshot](./docs/search-results-screenshot.png)
+**Search Results**
 
 ## Installation
 To get started, we will need a FHIR Server for the UI to connect to. We will need the FHIR Server to have `CORS` enabled so that the UI can connect to it. You can spin up your own FHIR Server by deploying the FHIR Works on AWS code on the [enable-cors](https://github.com/awslabs/fhir-works-on-aws-deployment/tree/enable-cors) branch.

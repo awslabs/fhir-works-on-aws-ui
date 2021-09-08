@@ -17,7 +17,7 @@ export const Callback: React.FC<{ setAccessToken: Function }> = ({
   useEffect(
     () => {
       const parsedHash = queryString.parse(history.location.hash);
-      const { access_token, state } = parsedHash;
+      const { state, id_token } = parsedHash;
       // Context: https://auth0.com/docs/protocols/state-parameters
       if (!isAccessTokenValid(state as string)) {
         setErrorMessage(
@@ -25,7 +25,7 @@ export const Callback: React.FC<{ setAccessToken: Function }> = ({
         Sent State: ${getAccessTokenState()}, Returned State: ${state}`
         );
       }
-      setAccessToken(access_token);
+      setAccessToken(id_token);
       history.push("/");
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps

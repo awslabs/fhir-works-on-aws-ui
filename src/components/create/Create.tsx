@@ -19,6 +19,7 @@ import { OptionDefinition } from "@awsui/components-react/internal/components/op
 import samplePatientResource from "./sample-data/samplePatientResource.json";
 import samplePractitionerResource from "./sample-data/samplePractitionerResource.json";
 import sampleScheduleResource from "./sample-data/sampleScheduleResource.json";
+import sampleObservationResource from "./sample-data/sampleObservationResource.json";
 import { Results } from "../common/Results";
 import ApiResponse, {
   defaultApiResponse,
@@ -123,6 +124,10 @@ export const Create: React.FC<{
                           null,
                           2
                         ),
+                      },
+                      {
+                        label: "Sample Observation Resource Data",
+                        value: JSON.stringify(sampleObservationResource, null, 2),
                       },
                       {
                         label: "Sample Schedule Resource Data",

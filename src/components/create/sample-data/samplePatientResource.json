@@ -2,15 +2,13 @@
   "resourceType": "Patient",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>John Smith</p></div>"
   },
   "active": true,
-  "name": [
-    {
-      "family": "Smith",
-      "given": ["John"]
-    }
-  ],
+  "name": [{
+    "family": "Smith",
+    "given": ["John"]
+  }],
   "gender": "male",
   "birthDate": "1996-09-24",
   "managingOrganization": {

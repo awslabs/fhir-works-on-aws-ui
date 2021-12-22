@@ -9,7 +9,7 @@
     "@awsui/design-tokens": "^3.0.5",
     "@awsui/global-styles": "^1.0.5",
     "ace-builds": "^1.4.12",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "clone-deep": "^4.0.1",
     "flat": "^5.0.2",
     "mime": "^1.6.0",
@@ -32,7 +32,10 @@
     "browserslist": "^4.16.5",
     "tar": "^6.1.2",
     "pac-resolver": "5.0.0",
-    "immer": "^9.0.6"
+    "immer": "^9.0.6",
+    "json-schema": "^0.4.0",
+    "ansi-regex": "^5.0.1",
+    "nth-check": "^2.0.1"
   },
   "scripts": {
     "start": "react-app-rewired start",

@@ -25,5 +25,8 @@
     "@aws-cdk/aws-codecommit": "^1.100.0",
     "@aws-cdk/core": "1.100.0",
     "source-map-support": "^0.5.16"
+  },
+  "resolutions": {
+    "pac-resolver": "^5.0.0"
   }
 }

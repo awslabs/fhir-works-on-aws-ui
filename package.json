@@ -13,7 +13,7 @@
     "clone-deep": "^4.0.1",
     "flat": "^5.0.2",
     "mime": "^1.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "query-string": "^6.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

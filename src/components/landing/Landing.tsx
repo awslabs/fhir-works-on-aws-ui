@@ -12,7 +12,6 @@ import {
 } from "@awsui/components-react";
 import React from "react";
 import "./Landing.scss";
-import diagram from "../../img/diagram.png";
 import { v4 as uuidv4 } from "uuid";
 import { storeAccessTokenState } from "../../common/utils/AccessTokenUtil";
 
@@ -142,20 +141,7 @@ export const Landing: React.FC<{
                 offset: { l: 2, xxs: 1 },
               },
             ]}
-          >
-            <Box padding={{ top: "xs" }} variant="h1">
-              FHIR Works on AWS Architecture
-            </Box>
-            <Container>
-              <Box textAlign="center">
-                <img
-                  className="resize-fit-in-container"
-                  src={diagram}
-                  alt="Architecture Diagram"
-                />
-              </Box>
-            </Container>
-          </Grid>
+          ></Grid>
         </Box>
       </Grid>
     </Box>

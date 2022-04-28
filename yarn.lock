@@ -3751,11 +3751,11 @@ cosmiconfig@^7.0.1:
     yaml "^1.10.0"
 
 cross-fetch@^3.0.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.4.tgz#9723f3a3a247bf8b89039f3a380a9244e8fa2f39"
-  integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
   dependencies:
-    node-fetch "2.6.1"
+    node-fetch "2.6.7"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -7438,7 +7438,7 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@2.6.1, node-fetch@^3.2.0:
+node-fetch@2.6.7, node-fetch@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.0.tgz#59390db4e489184fa35d4b74caf5510e8dfbaf3b"
   integrity sha512-8xeimMwMItMw8hRrOl3C9/xzU49HV/yE6ORew/l+dxWimO5A4Ra8ld2rerlJvc/O7et5Z1zrWsPX43v1QBjCxw==

@@ -1,3 +1,5 @@
+# This GitHub repository is deprecated. 
+
 # FHIR Works UI
 
 This code base allows you to spin up a UI that makes it easy and simple to interface with the [FHIR Works on AWS Server](https://github.com/awslabs/fhir-works-on-aws-deployment).
